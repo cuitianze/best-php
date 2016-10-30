@@ -1,0 +1,21 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Tianze
+ * Date: 16/10/30
+ * Time: 下午3:24
+ */
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+?>
+<?php $form = ActiveForm::begin(); ?>
+
+<?= $form->field($model, 'name')->label('姓名') ?>
+
+<?= $form->field($model, 'email')->label('邮件') ?>
+
+    <div class="form-group">
+        <?= Html::submitButton('Submit', ['class' => 'btn btn-primary']) ?>
+    </div>
+
+<?php ActiveForm::end(); ?>
