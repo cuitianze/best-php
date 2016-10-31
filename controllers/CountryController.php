@@ -26,11 +26,11 @@ class CountryController extends Controller
             ->offset($pagination->offset)
             ->limit($pagination->limit)
             ->all();
-        return \yii\helpers\Json::encode($countries);
-//        return $this->render('index', [
-//            'countries' => $countries,
-//            'pagination' => $pagination
-//        ]);
+//        return \yii\helpers\Json::encode($countries);
+        return $this->render('index', [
+            'countries' => $countries,
+            'pagination' => $pagination
+        ]);
     }
     public function actionList() {
         $countries = Country::find()->orderBy('name')->all();
