@@ -41,6 +41,12 @@ $note4->note = 'Gii基本用法生成models, controller, views';
 $note4->link = false;
 array_push($notes, $note4);
 
+$note5 = new Note();
+$note5->date = "2016年10月31日23:56:26";
+$note5->note = 'http://www.yiichina.com/doc/guide/2.0/structure-applications?';
+$note5->link = true;
+array_push($notes, $note5);
+
 //return \yii\helpers\Json::encode($notes);
 ?>
 
