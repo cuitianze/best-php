@@ -35,6 +35,12 @@ $note3->note = 'PHP内嵌HTML中的if-else判断';
 $note3->link = false;
 array_push($notes, $note3);
 
+$note4 = new Note();
+$note4->date = "2016年10月31日23:16:46";
+$note4->note = 'Gii基本用法生成models, controller, views';
+$note4->link = false;
+array_push($notes, $note4);
+
 //return \yii\helpers\Json::encode($notes);
 ?>
 
