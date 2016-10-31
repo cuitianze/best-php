@@ -43,7 +43,7 @@ array_push($notes, $note4);
 
 $note5 = new Note();
 $note5->date = "2016年10月31日23:56:26";
-$note5->note = 'http://www.yiichina.com/doc/guide/2.0/structure-applications?';
+$note5->note = 'http://www.yiichina.com/doc/guide/2.0/structure-applications?未看完';
 $note5->link = true;
 array_push($notes, $note5);
 
